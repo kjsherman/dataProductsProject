@@ -9,25 +9,27 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Agenda Slide
+## Table of Contents
+- Description of the app
+- Application
+- Data used in the application
+- Links 
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Description of Application
+This application leverages the "quakes" dataset in Rstudio which is based on recorded information from earthquakes in Fiji in 1964. The application lets the user create different bins to organize the data. These bins create groupings of the recorded depths of the earthquakes. The graph then displays the frequency in which the depth of these earthquakes falls within different ranges.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
-
-## Slide Explaining the App
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with Application
+## Application
 
 <iframe src="https://kjsherman.shinyapps.io/finalproject/" style="border: none; width: 700px; height: 700px"></iframe>
 
-## Slide with data set
-```{r pressure}
-plot(pressure)
+## Dataset
+```{r quakes, echo = TRUE}
+head(quakes)
 ```
 
-## Slide with links
+## Links
+shiny app
+https://kjsherman.shinyapps.io/finalproject/
+
+github repo
+https://github.com/kjsherman/dataProductsProject
