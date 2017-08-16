@@ -1,0 +1,33 @@
+---
+title: "Final Data Product"
+author: "KJ Sherman"
+date: "August 16, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Agenda Slide
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide Explaining the App
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with Application
+
+<iframe src="https://kjsherman.shinyapps.io/finalproject/" style="border: none; width: 700px; height: 700px"></iframe>
+
+## Slide with data set
+```{r pressure}
+plot(pressure)
+```
+
+## Slide with links

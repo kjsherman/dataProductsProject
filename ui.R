@@ -16,10 +16,15 @@ shinyUI(fluidPage(
                    max = 10,
                    value = 7)
     ),
-    
-    # Show a plot of the generated distribution
     mainPanel(
-       plotOutput("distPlot")
+       plotOutput("distPlot"),
+       h1("HOW TO USE THIS APP"),
+       h3("Move slider to adjust number of bins"),
+       em("(Histogram will group earthquakes by their depth)"),
+       h6("DISFRUTA!")
+       
+       
+
     )
   )
 ))
